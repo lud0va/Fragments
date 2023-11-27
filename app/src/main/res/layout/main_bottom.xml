@@ -10,7 +10,7 @@
         android:id="@+id/toolbar"
         android:layout_width="0dp"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/white"
+        android:background="@color/dark_pink"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -19,9 +19,11 @@
         app:layout_constraintVertical_bias="0.0">
 
         <TextView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:textColor="@color/white"
+            style="@style/Title"
             android:layout_gravity="center"
             android:text="@string/app_name" />
 
@@ -42,9 +44,9 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavView"
         android:layout_width="0dp"
-
+        app:itemBackground="@drawable/fondo_item"
         android:layout_height="wrap_content"
-        app:backgroundTint="@color/design_default_color_primary"
+        app:backgroundTint="@color/dark_pink"
         app:itemActiveIndicatorStyle="@null"
         app:itemIconTint="@color/design_default_color_on_primary"
         app:itemTextColor="@color/design_default_color_on_primary"

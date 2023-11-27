@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.fragments.databinding.FragmentPrimerBinding
+
 import com.example.fragments.databinding.FragmentSeptimoBinding
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -18,7 +18,7 @@ class SeptimoFragment : Fragment(){
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         _binding = FragmentSeptimoBinding.inflate(inflater, container, false)
         return binding.root

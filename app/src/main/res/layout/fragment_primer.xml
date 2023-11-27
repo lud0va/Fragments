@@ -9,11 +9,11 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/texto"
+        style="@style/TextMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:text="@string/primero"
-        android:textSize="60sp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,31 +23,29 @@
         android:id="@+id/irSegundo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/dark_pink"
         android:text="@string/segundo"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="457dp"
-
-        app:layout_constraintBottom_toTopOf="@id/irTercero"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/texto"
-        />
+        app:layout_constraintVertical_bias="0.201" />
 
     <Button
         android:id="@+id/irTercero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
+        android:layout_marginBottom="@dimen/marginBtn"
+        android:backgroundTint="@color/dark_pink"
         android:text="@string/tercero"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="523dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/irSegundo"
-
-        />
+        app:layout_constraintTop_toBottomOf="@+id/irSegundo"
+        app:layout_constraintVertical_bias="0.282" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,12 +8,13 @@
 
 
     >
+
     <TextView
         android:id="@+id/texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cuarto"
-        android:textSize="60sp"
+        style="@style/TextMain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,28 +25,30 @@
         android:id="@+id/irQuinto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:layout_marginBottom="75dp"
+        android:backgroundTint="@color/dark_pink"
         android:text="@string/quinto"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.667" />
+        app:layout_constraintTop_toBottomOf="@+id/texto"
+        app:layout_constraintVertical_bias="0.201"/>
 
     <Button
         android:id="@+id/irSexto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBtn"
 
-        android:layout_marginBottom="16dp"
 
-        android:text="@string/tercero"
+
+        android:backgroundTint="@color/dark_pink"
+        android:text="@string/sexto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
-
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/irQuinto" />
+        app:layout_constraintTop_toBottomOf="@+id/irQuinto"
+        app:layout_constraintVertical_bias="0.282" />
 </androidx.constraintlayout.widget.ConstraintLayout>

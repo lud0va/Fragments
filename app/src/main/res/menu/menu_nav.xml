@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/cuartoFragment"
-
-        android:title="@string/cuarto"
-        android:contentDescription="descripcion"
-        />
-
-    <item
         android:id="@+id/primerFragment"
         android:title="@string/primero"
-        android:contentDescription="des1"
+        android:icon="@drawable/snail_icon"
+
+        android:contentDescription="@string/primero"
         />
     <item
-        android:id="@+id/septimoFragment"
+        android:id="@+id/cuartoFragment"
+        android:icon="@drawable/turtle_icon"
 
+        android:title="@string/cuarto"
+        android:contentDescription="@string/cuarto"
+        />
+
+
+    <item
+        android:id="@+id/septimoFragment"
+        android:icon="@drawable/squirrel_icon"
         android:title="@string/septimo"
-        android:contentDescription="descripcion"
+        android:contentDescription="@string/septimo"
         />
 </menu>

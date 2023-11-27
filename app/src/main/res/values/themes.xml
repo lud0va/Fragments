@@ -4,6 +4,18 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
+    <style name="Button.pink" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/dark_pink</item>
+    </style>
+    <style name="Title">
+        <item name="android:fontFamily">@font/start_game</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="TextMain">
+        <item name="android:fontFamily">@font/start_game</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 
     <style name="Theme.Fragments" parent="Base.Theme.Fragments" />
 </resources>
