@@ -7,9 +7,10 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.fragments.R
 import com.example.fragments.databinding.MainBottomBinding
+import dagger.hilt.android.AndroidEntryPoint
 
 
-
+@AndroidEntryPoint
 class MainActivityBottom: AppCompatActivity() {
     private lateinit var binding: MainBottomBinding
     private lateinit var navController: NavController

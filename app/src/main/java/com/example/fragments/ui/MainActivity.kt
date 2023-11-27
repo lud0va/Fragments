@@ -20,7 +20,7 @@ import com.example.fragments.ui.fragments.fragmentsRoot.SeptimoFragmentDirection
 import dagger.hilt.android.AndroidEntryPoint
 import timber.log.Timber
 
-@AndroidEntryPoint
+
 
 class MainActivity : AppCompatActivity() {
 
